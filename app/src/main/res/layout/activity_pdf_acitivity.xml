@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    tools:context=".pdfAcitivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="15sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="It is time to get some important information."
+        android:textColor="#F31515"
+        android:textSize="27dp"
+        app:fontFamily="@font/freckle_face" />
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Search by Roll number"
+        android:inputType="textPersonName"
+        android:textDirection="firstStrongLtr"
+        android:paddingTop="5dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Search"
+        android:layout_marginTop="10dp"
+        android:textSize="28dp"
+        android:fontFamily="@font/kelly_slab"
+        android:textAllCaps="false"
+        android:background="@drawable/button_two"
+        android:layout_gravity="end"
+        android:id="@+id/btShow"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorPrimary"
+    android:height="4dp"/>
+    <EditText
+        android:id="@+id/etText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter the text:"
+        android:inputType="textMultiLine"
+        android:fontFamily="@font/kelly_slab"
+        android:lines="15"
+        android:minHeight="200dp"
+        android:paddingLeft="10dp"
+        android:textDirection="firstStrongLtr"
+
+        />
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:textSize="28dp"
+        android:fontFamily="@font/kelly_slab"
+        android:textAllCaps="false"
+        android:background="@drawable/button_two"
+        android:text="Save PDF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:height="4dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F5C6C6">
+    <TextView
+        android:id="@+id/tvUpdateIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="If you want to update your infromation. Use the below button..."
+        android:textColor="#F31515"
+        android:textSize="27dp"
+        app:fontFamily="@font/freckle_face" />
+
+    <Button
+        android:id="@+id/btUpdateInformation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_two"
+        android:text="Update It"
+        android:textSize="28dp"
+        android:fontFamily="@font/kelly_slab"
+        android:textAllCaps="false"
+        android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".what">
+
+    <include
+        layout="@layout/tab_bar"/>
+    <!--<com.example.db_stud.CustomViewPager-->
+    <FrameLayout
+    android:id="@+id/fragment_container"
+        android:layout_marginTop="70dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="166dp"
+
+        tools:ignore="MissingConstraints">
+        <!--<include-->
+            <!--layout="@layout/fragment_personal"/>-->
+        <!--<include-->
+            <!--layout="@layout/fragment_educational"/>-->
+        <!--<include-->
+            <!--layout="@layout/fragment_skills"/>-->
+    </FrameLayout>
+    <!--</com.example.db_stud.CustomViewPager>-->
+    <!--android:id="@+id/fragment_container"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_below="@layout/tab_bar"-->
+    <!--tools:layout_editor_absoluteX="0dp"-->
+    <!--tools:layout_editor_absoluteY="166dp"-->
+
+</android.support.constraint.ConstraintLayout>

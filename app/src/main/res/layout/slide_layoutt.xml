@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginLeft="173dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        app:srcCompat="@drawable/db" />
+
+    <TextView
+        android:id="@+id/txtDefine"
+        android:layout_width="268dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="270dp"
+        android:padding="5dp"
+        android:text="The medicine used for common ailments are stored by many households for emergency use. Many times these medicine expire despite being stored under prescribed conditions and become useless. The proposal brings in usage of technology to reuse medicine in hassle free manner."
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp" />
+</RelativeLayout>

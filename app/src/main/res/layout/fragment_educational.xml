@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    android:id="@+id/frag_edu">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/fragments_bg"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/img_edu"
+                android:layout_width="225dp"
+                android:layout_height="117dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="65dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="59dp"
+                android:layout_marginRight="59dp"
+                app:srcCompat="@drawable/edu" />
+
+            <EditText
+                android:id="@+id/etEroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@drawable/edittext_two"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:hint="Roll number"
+                android:textSize="20sp"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/et10School"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:lines="3"
+                android:background="@drawable/edittext_two"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:hint="School Address(10th passed out)"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true" />
+
+            <EditText
+                android:id="@+id/et10Result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@drawable/edittext_two"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:hint="Result of 10th exam"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/et12School"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:lines="3"
+                android:background="@drawable/edittext_two"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:hint="School Address (12th passed out)"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true" />
+
+            <EditText
+                android:id="@+id/et12Result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@drawable/edittext_two"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:hint="Result of 12th Exam"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etCompetitive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@drawable/edittext_two"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:hint="Competitive exam passed and respective results"
+                android:inputType="textMultiLine"
+                android:lines="6"
+                android:selectAllOnFocus="true" />
+
+            <Button
+                android:id="@+id/btEadd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Data"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_two"
+                android:textColor="#6F92DD"
+                android:fontFamily="@font/freckle_face"
+                android:textAllCaps="false"
+                android:textSize="28dp"/>
+
+            <Button
+                android:id="@+id/btEview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View all data"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btEupdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update the data"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_two"
+                android:textColor="#6F92DD"
+                android:fontFamily="@font/freckle_face"
+                android:textAllCaps="false"
+                android:textSize="28dp"
+                android:visibility="visible"/>
+
+
+        </LinearLayout>
+</ScrollView>
